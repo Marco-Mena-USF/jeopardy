@@ -1,0 +1,95 @@
+body {
+  font-family: 'Copse', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #115ff4;
+  color: #fff;
+}
+
+header {
+  background-color: #060ce9;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #28a200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #8d2ab5;
+}
+
+#spin-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fa-spinner {
+  font-size: 48px;
+  color: #fff;
+}
+
+#jeopardy {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #74119c;
+  padding: 10px;
+}
+
+td {
+  background-color: #8d2ab5;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.points {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.show-question {
+  background-color: #74119c;
+}
+
+.show-answer {
+  background-color: #060ce9;
+}
+
+.question-cell:hover {
+  background-color: #115ff4;
+}
+
+.question-cell::selection {
+  background-color: transparent;
+}
+
+.question-cell::-moz-selection {
+  background-color: transparent;
+}
